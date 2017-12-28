@@ -1,7 +1,7 @@
 # Jupyter Datascience Notebook for ruby
 
 ## Run with :
- 	docker run -p 8888:8888 -v /path/to/data/notebooks/dir:/notebooks-dir saagie/ruby-notebook:latest
+ 	docker run -p 8888:8888 -v /path/to/data/notebooks/dir:/notebooks-dir saagie/jupyter-ruby-nbk:latest
 
 ## Libraries :
 
@@ -17,8 +17,8 @@
 
 	* Data Visualisation
 		* nyaplot
-		* nyaplot3d 
-		* bionya 
+		* nyaplot3d
+		* bionya
 		* mapnya
 
 	* Database connection
