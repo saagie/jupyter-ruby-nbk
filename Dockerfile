@@ -44,4 +44,4 @@ RUN /bin/bash -l -c "iruby register"
 WORKDIR /notebooks-dir
 
 # Default: run without authentication
-CMD ["/bin/bash", "-l", "-c", "start-notebook.sh --NotebookApp.token=''"]
+CMD ["/bin/bash", "-l", "-c", "start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''"]
